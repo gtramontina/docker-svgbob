@@ -1,0 +1,7 @@
+[package]
+name = "docker-svgbob"
+version = "0.0.0"
+edition = "2018"
+
+[dependencies]
+svgbob_cli = "0.5.3"
