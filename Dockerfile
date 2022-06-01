@@ -11,5 +11,5 @@ RUN cargo install \
 # ---
 
 FROM scratch
-COPY --from=build /opt/bin/svgbob /svgbob
+COPY --from=build /opt/bin/svgbob_cli /svgbob
 ENTRYPOINT ["/svgbob"]

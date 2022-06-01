@@ -4,4 +4,4 @@ version = "0.0.0"
 edition = "2018"
 
 [dependencies]
-svgbob_cli = "0.5.3"
+svgbob_cli = "0.6.6"
