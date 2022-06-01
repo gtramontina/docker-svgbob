@@ -1,4 +1,4 @@
-FROM rust:1.53-slim as build
+FROM rust:1.61-slim as build
 ARG version
 WORKDIR /opt
 RUN rustup target add x86_64-unknown-linux-musl
