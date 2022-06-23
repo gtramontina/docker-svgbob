@@ -10,6 +10,7 @@ RUN cargo install \
 
 # ---
 
+LABEL org.opencontainers.image.description "Container for svgbob https://github.com/ivanceras/svgbob"
 FROM scratch
 COPY --from=build /opt/bin/svgbob_cli /svgbob
 ENTRYPOINT ["/svgbob"]
